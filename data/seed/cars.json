@@ -1,0 +1,94 @@
+[
+  {
+    "make": "Perodua",
+    "model": "Myvi",
+    "year": "2022",
+    "specs": {
+      "engine": "1.5L NA 2NR-VE DOHC",
+      "power": "102 hp @ 6000 rpm",
+      "torque": "136 Nm @ 4200 rpm",
+      "transmission": "CVT (D-CVT)",
+      "drivetrain": "FWD",
+      "fuel_economy": "~18.1 km/L",
+      "0_100": "~11.5 s",
+      "top_speed": "~175 km/h",
+      "body": "5-door hatchback"
+    },
+    "owner_remarks": [
+      "Great city car; light steering and easy to park.",
+      "The CVT is smooth but feels lazy on highway overtakes.",
+      "ASA (Advanced Safety Assist) works well for the price.",
+      "Fuel economy is excellent for daily commuting."
+    ],
+    "history": "The third-generation Myvi (G3) launched in late 2017 and was facelifted in 2021. It is Malaysia's best-selling car and is developed by Perodua, which is majority-owned by Daihatsu and UMW, giving it strong Toyota/Daihatsu engineering heritage."
+  },
+  {
+    "make": "Proton",
+    "model": "Saga",
+    "year": "2019",
+    "specs": {
+      "engine": "1.3L VVT NA",
+      "power": "95 hp @ 5750 rpm",
+      "torque": "120 Nm @ 4000 rpm",
+      "transmission": "4-speed auto / 5-speed manual",
+      "drivetrain": "FWD",
+      "fuel_economy": "~14-16 km/L",
+      "0_100": "~13 s",
+      "top_speed": "~165 km/h",
+      "body": "A-segment sedan"
+    },
+    "owner_remarks": [
+      "Best value A-segment sedan; surprisingly spacious boot.",
+      "The 4AT is dated but reliable and cheap to maintain.",
+      "Ride comfort is good for the price; engine is a bit noisy at speed.",
+      "Spare parts are everywhere in Malaysia - cheap to own."
+    ],
+    "history": "The Saga is Proton's first and longest-running model, originally launched in 1985 based on the Mitsubishi Lancer Fiore. The 2019 facelift brought Proton's new design language under Geely ownership and a new VVT engine."
+  },
+  {
+    "make": "Honda",
+    "model": "Civic",
+    "year": "2018",
+    "specs": {
+      "engine": "1.5L VTEC Turbo (FC) / 1.8L NA",
+      "power": "173 hp (1.5T) @ 5500 rpm",
+      "torque": "220 Nm @ 1700-5500 rpm",
+      "transmission": "CVT",
+      "drivetrain": "FWD",
+      "fuel_economy": "~15-17 km/L",
+      "0_100": "~8.2 s (1.5T)",
+      "top_speed": "~200 km/h",
+      "body": "C-segment sedan"
+    },
+    "owner_remarks": [
+      "The 1.5T is punchy and efficient; the CVT is one of the better ones.",
+      "Spacious cabin with a low seating position.",
+      "Watch for the CVT fluid change interval; keep it maintained.",
+      "Handling is sharper than previous generations."
+    ],
+    "history": "The tenth-generation Civic (FC) launched globally in 2016 with a new turbocharged engine line-up and aggressive fastback styling. It has a strong enthusiast following and is a popular modding platform in Malaysia."
+  },
+  {
+    "make": "Toyota",
+    "model": "GR Yaris",
+    "year": "2021",
+    "specs": {
+      "engine": "1.6L 3-cyl turbo (G16E-GTS)",
+      "power": "261 hp @ 6500 rpm",
+      "torque": "360 Nm @ 3000-4600 rpm",
+      "transmission": "6-speed manual",
+      "drivetrain": "AWD (GR-FOUR)",
+      "fuel_economy": "~11 km/L",
+      "0_100": "~5.5 s",
+      "top_speed": "~230 km/h",
+      "body": "3-door hot hatch"
+    },
+    "owner_remarks": [
+      "A rally-bred pocket rocket; the AWD grip is phenomenal.",
+      "Very stiff ride - it is a focused performance car, not a commuter.",
+      "Manual gearbox and rev-matching are excellent.",
+      "Expensive for its size but nothing else drives like it at the price."
+    ],
+    "history": "The GR Yaris is Toyota's homologation special developed with its WRC team (now Toyota Gazoo Racing), with a bespoke body, carbon-fibre roof, and a rally-derived AWD system. It was built to revive Toyota's performance image under the GR brand."
+  }
+]

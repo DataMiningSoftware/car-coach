@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Sample Performance Garage",
+    "specialty": "performance tuning",
+    "location": "Shah Alam, Selangor",
+    "rating": "4.6",
+    "source": "curated"
+  },
+  {
+    "name": "Sample Vintage Restoration",
+    "specialty": "classic car restoration",
+    "location": "Klang, Selangor",
+    "rating": "4.4",
+    "source": "curated"
+  },
+  {
+    "name": "Sample Body & Paint",
+    "specialty": "bodywork and paint",
+    "location": "Kajang, Selangor",
+    "rating": "4.2",
+    "source": "curated"
+  }
+]

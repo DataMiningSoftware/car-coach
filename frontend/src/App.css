@@ -1,0 +1,114 @@
+:root {
+  --bg: #0f1115;
+  --panel: #181b21;
+  --accent: #e63946;
+  --text: #eaeaea;
+  --muted: #9aa0a6;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.app {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header h1 { margin: 0; font-size: 2rem; }
+.subtitle { color: var(--muted); margin: 4px 0 16px; }
+
+.car-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+input, select {
+  background: var(--panel);
+  border: 1px solid #2a2e35;
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  flex: 1;
+}
+
+input.wide { flex: 2; }
+
+button {
+  background: var(--accent);
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.tabs button {
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid #2a2e35;
+}
+
+.tabs button.active {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid #2a2e35;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.panel form { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+
+.card {
+  background: #1e2229;
+  border: 1px solid #2a2e35;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+.card h3 { margin: 0 0 8px; }
+
+.badge {
+  background: var(--accent);
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-left: 8px;
+}
+
+.answer {
+  white-space: pre-wrap;
+  background: #1e2229;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.answer pre { white-space: pre-wrap; font-family: inherit; }
+
+.muted { color: var(--muted); font-size: 0.85rem; }
+.error { color: #ff6b6b; }
+small { color: var(--muted); }
