@@ -20,7 +20,7 @@ def _get_client():
     return _client
 
 
-def complete(system: str, prompt: str, temperature: float = 0.2) -> str:
+def complete(system: str, prompt: str, temperature: float = 0.2, max_tokens: int = 512) -> str:
     resp = _get_client().chat.completions.create(
         model=config.GROQ_MODEL,
         messages=[
@@ -28,12 +28,13 @@ def complete(system: str, prompt: str, temperature: float = 0.2) -> str:
             {"role": "user", "content": prompt},
         ],
         temperature=temperature,
+        max_tokens=max_tokens,
     )
     return resp.choices[0].message.content or ""
 
 
 def complete_json(system: str, prompt: str, temperature: float = 0.2) -> dict:
-    text = complete(system, prompt, temperature).strip()
+    text = complete(system, prompt, temperature, max_tokens=900).strip()
     if text.startswith("```"):
         text = text.strip("`")
         if text.lower().startswith("json"):
